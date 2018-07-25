@@ -20,4 +20,13 @@ In every implementation I try to focus on one special aspect, like using a speci
 	- g: g for glider, the only figure on the field, starting in the top left corner
 
 ### The Jurney
-1. Day: One Class, just typing it down without much thinking about, it should only work.
+1. Day: One Class, just typing it down without much thinking about, it should only work. Findings: 
+  - The Code looks pretty similar in all 3 languages, there are only language      specific differences.
+  - There are a lot of nested for / foreach loops
+  - Parameter evaluation and Game Creating has not become much smooth, especially the "g" parameter / constructor is bad
+  - A lot of control structure, not much of a domain visible
+  - Maybe an array is not the best data structure
+  - Without tests a lot of work to check the correctness
+  - If everything is static no class would be needed at all
+
+2. Day: Still one Class, still using an Array, no tests, but this time thinking about it, improve structure and naming
